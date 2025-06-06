@@ -1,6 +1,9 @@
 # analytics_studies
 Here I share the tasks and case studies I completed during my data analytics studies. This plan can be used as a roadmap for Data Analysts. All the materials listed are those I have personally used (or currently using) and found valuable in my professional development.
 
+*If the file doesn’t open properly (showing an 'Unable to render code block' error), try using a different browser or downloading the file instead.
+
+---
 ### Plan
 I developed a plan based on the key competencies for Data Analyst. The listed sources provide free courses and books to help enhance these skills:
 
