@@ -28,7 +28,7 @@ Here, I share the courses, books, case studies and personal notes I completed wh
 <details>
 <summary>SQL</summary>
 
-- [SQL Simulator. Karpov.Courses](https://karpov.courses/simulator-sql) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/SQL%20Simulator%20(Karpov)%20-%20Notes.pdf) | [My solutions]
+- [SQL Simulator. Karpov.Courses](https://karpov.courses/simulator-sql) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/SQL%20Simulator%20(Karpov)%20-%20Notes.pdf) | [My solutions](https://github.com/Leila-16/analytics_studies/blob/main/SQL_solutions_Karpov.md)
 
 Practice:
 - [SQl-exercises](https://sql-ex.ru/learn_exercises.php?LN=6)
