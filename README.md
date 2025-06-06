@@ -11,7 +11,7 @@ I developed a plan based on the key competencies for Data Analyst. The listed so
 <details>
 <summary>Statistics and Probability</summary>
 	
-- [Statistics for Business and Economics by Paul Newbold (Chapter 3)](https://www.amazon.com/Statistics-Business-Economics-Paul-Newbold/dp/0136085369) | [My notes]
+- [Statistics for Business and Economics by Paul Newbold (Chapter 3)](https://www.amazon.com/Statistics-Business-Economics-Paul-Newbold/dp/0136085369) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/Probability%20theory%20-%20Notes.pdf)
 
 </details>
 
@@ -20,7 +20,7 @@ I developed a plan based on the key competencies for Data Analyst. The listed so
 <details>
 <summary>Math</summary>
 	
-- [Mathematics for Economics and Finance by Martin Anthony and Norman Biggs](https://www.amazon.com/Mathematics-Economics-Finance-Methods-Modelling/dp/0521559138/ref=sr_1_1?crid=8YDI7LAU7GMF&dib=eyJ2IjoiMSJ9.fQDkg2nOHuivZMKHO6g2ew.RqJPV7-bz-YJKrve-ePexUAl5BhADIHUWkTWxw4I1bo&dib_tag=se&keywords=Mathematics+for+economics+and+finance+Antony+M%2C+N.+Biggs&qid=1749238455&s=books&sprefix=mathematics+for+economics+and+finance+antony+m%2C+n.+biggs%2Cstripbooks%2C348&sr=1-1) | [My notes]
+- [Mathematics for Economics and Finance by Martin Anthony and Norman Biggs](https://www.amazon.com/Mathematics-Economics-Finance-Methods-Modelling/dp/0521559138/ref=sr_1_1?crid=8YDI7LAU7GMF&dib=eyJ2IjoiMSJ9.fQDkg2nOHuivZMKHO6g2ew.RqJPV7-bz-YJKrve-ePexUAl5BhADIHUWkTWxw4I1bo&dib_tag=se&keywords=Mathematics+for+economics+and+finance+Antony+M%2C+N.+Biggs&qid=1749238455&s=books&sprefix=mathematics+for+economics+and+finance+antony+m%2C+n.+biggs%2Cstripbooks%2C348&sr=1-1) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/Mathematics%20-%20Notes.pdf)
 - [Math for Data Science. Karpov.Courses](https://karpov.courses/mathsds)
 
 </details>
