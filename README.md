@@ -49,3 +49,7 @@ I developed a plan based on the key competencies for Data Analyst. The listed so
 - [Python basics. Karpov.Courses](https://karpov.courses/pythonzero)
 
 </details>
+
+
+
+[file](https://github.com/Leila-16/analytics_studies/blob/main/%D0%9A%D0%B0%D1%80%D0%BF%D0%BE%D0%B2%20Sql%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B8%CC%86.pdf)
