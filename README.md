@@ -1,5 +1,5 @@
-# analytics_studies
-Here I share the tasks and case studies I completed during my data analytics studies. This plan can be used as a roadmap for Data Analysts. All the materials listed are those I have personally used (or currently using) and found valuable in my professional development.
+# Data Analytics Roadmap: Courses, Books, Case Studies & Notes I Used
+Here, I share the courses, books, case studies and personal notes I completed while preparing for a Data Analyst role. This collection serves as a roadmap for Data Analysts. All the materials listed are those I have personally used and found valuable in my professional development.
 
 *If the file doesn’t open properly (showing an 'Unable to render code block' error), try using a different browser or downloading the file instead.
 
