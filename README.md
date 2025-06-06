@@ -32,6 +32,11 @@ I developed a plan based on the key competencies for Data Analyst. The listed so
 
 - [SQL Simulator. Karpov.Courses](https://karpov.courses/simulator-sql) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/SQL%20Simulator%20(Karpov)%20-%20Notes.pdf) | [My solutions]
 
+Practice:
+- [SQl-exercises](https://sql-ex.ru/learn_exercises.php?LN=6)
+- [SQL-exercises and job interview tasks](https://sql-academy.org/ru/trainer)
+- [Solve a mystery using SQL](https://www.sqlnoir.com/)
+- [Detective-game](https://mystery.knightlab.com/)
  </details>
 
 
