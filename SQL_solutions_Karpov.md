@@ -5,8 +5,6 @@
 
 [Анализ продуктовых метрик](#анализ-продуктовых-метрик)
 
-[Эпилог](#эпилог)
-
 ---
 ### Построение дашбордов
 ### Задача 1
@@ -373,32 +371,146 @@ ORDER BY hour
 ```
 ![image](https://github.com/user-attachments/assets/dccc03dd-507e-4da7-864a-c818c836d101)
 
-
-### Задача 9
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 ### Анализ продуктовых метрик
+### Экономика продукта
 
+### Задача 1
+Для каждого дня в таблице orders рассчитайте следующие показатели:  
+Выручку, полученную в этот день.  
+Суммарную выручку на текущий день.  
+Прирост выручки, полученной в этот день, относительно значения выручки за предыдущий день.  
+Колонки с показателями назовите соответственно revenue, total_revenue, revenue_change. Колонку с датами назовите date.  
+Прирост выручки рассчитайте в процентах и округлите значения до двух знаков после запятой.  
+Результат должен быть отсортирован по возрастанию даты.  
+Поля в результирующей таблице: date, revenue, total_revenue, revenue_change  
 
+```sql
+SELECT 
+    date,
+    revenue,
+    total_revenue,
+    ROUND((((revenue*100) / LAG(revenue) OVER()) - 100), 2) AS revenue_change
+FROM
+    (SELECT
+        date,
+        revenue,
+        SUM(revenue) OVER(ORDER BY date) AS total_revenue
+    FROM
+        (SELECT
+            creation_time::DATE AS date,
+            SUM(price) AS revenue
+        FROM
+            (SELECT
+                creation_time,
+                order_id,
+                UNNEST(product_ids) AS product_id
+            FROM orders) all_products
+        LEFT JOIN products USING(product_id)
+        WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order')
+        GROUP BY date) AS revenue) AS total
+```
 
+### Задача 2
+Для каждого дня в таблицах orders и user_actions рассчитайте следующие показатели:  
+Выручку на пользователя (ARPU) за текущий день.  
+Выручку на платящего пользователя (ARPPU) за текущий день.  
+Выручку с заказа, или средний чек (AOV) за текущий день.  
+Колонки с показателями назовите соответственно arpu, arppu, aov. Колонку с датами назовите date.   
+При расчёте всех показателей округляйте значения до двух знаков после запятой.  
+Результат должен быть отсортирован по возрастанию даты.   
+Поля в результирующей таблице: date, arpu, arppu, aov  
 
+```sql
+WITH unnested AS(
+SELECT
+    DATE(creation_time) AS date,
+    order_id,
+    UNNEST(product_ids) AS product_id
+FROM orders
+WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action ='cancel_order')),
 
----
-### Эпилог
+paying_users_quantity AS (
+  SELECT
+    DATE(time) AS date,
+    COUNT(DISTINCT user_id) FILTER (WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order')) AS paying_users,
+    COUNT(DISTINCT user_id) AS all_users
+  FROM user_actions
+  GROUP BY date)
 
+SELECT
+    date,
+    ROUND(revenue::DECIMAL / all_users, 2) AS ARPU,
+    ROUND(revenue::DECIMAL / paying_users, 2) AS ARPPU,
+    ROUND(revenue::DECIMAL / orders_quantity, 2) AS AOV
+FROM 
+    (SELECT
+        date,
+        SUM(price) AS revenue,
+        COUNT(DISTINCT order_id) AS orders_quantity
+    FROM unnested LEFT JOIN  products USING(product_id)
+    GROUP BY date)AS t1
+LEFT JOIN paying_users_quantity USING(date)
+ORDER BY date
+```
 
+### Задача 6
+Для каждого товара, представленного в таблице products, за весь период времени в таблице orders рассчитайте следующие показатели:  
+Суммарную выручку, полученную от продажи этого товара за весь период.  
+Долю выручки от продажи этого товара в общей выручке, полученной за весь период.  
+Колонки с показателями назовите соответственно revenue и share_in_revenue. Колонку с наименованиями товаров назовите product_name.  
+Долю выручки с каждого товара необходимо выразить в процентах. При её расчёте округляйте значения до двух знаков после запятой.  
+Товары, округлённая доля которых в выручке составляет менее 0.5%, объедините в общую группу с названием «ДРУГОЕ» (без кавычек), просуммировав округлённые доли этих товаров.  
+Результат должен быть отсортирован по убыванию выручки от продажи товара.  
+Поля в результирующей таблице: product_name, revenue, share_in_revenue  
 
+```sql
+WITH unnested AS(
+SELECT 
+    creation_time, 
+    order_id,
+    UNNEST(product_ids) AS product_id
+FROM orders),
 
+joined AS(
+SELECT 
+    creation_time, 
+    order_id, 
+    unnested.product_id,
+    name AS product_name, 
+    price
+FROM unnested
+JOIN products USING(product_id)
+WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action ='cancel_order')),
 
+base AS(
+SELECT
+    product_name,
+    SUM(price) AS revenue
+FROM joined
+GROUP BY product_name),
+
+total AS(
+SELECT
+    SUM(revenue) AS total_revenue
+FROM base),
+
+drugoe AS (
+SELECT
+    revenue,
+    ROUND(100 * revenue / total.total_revenue, 2) AS share_in_revenue,
+    CASE
+        WHEN revenue / total_revenue < 0.005 THEN 'ДРУГОЕ'
+        ELSE product_name
+    END AS product_name
+FROM base CROSS JOIN total)
+
+SELECT
+    product_name,
+    SUM(revenue) AS revenue,
+    SUM(share_in_revenue) AS share_in_revenue
+FROM drugoe
+GROUP BY product_name
+ORDER BY revenue DESC
+```
+![image](https://github.com/user-attachments/assets/f37dc676-7c7b-41d8-b824-e1afece54eab)
