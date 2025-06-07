@@ -1,7 +1,8 @@
 ## Data Analytics Roadmap: Courses, Books, Case Studies & Notes I Used
 Here, I share the courses, books, case studies and personal notes I completed while preparing for a Data Analyst role. This collection serves as a roadmap for Data Analysts and is based on the key competencies required for the role. All the materials listed are those I have personally used and found valuable in my professional development.
 
-*If the file doesn’t open properly (showing an 'Unable to render code block' error), try using a different browser or downloading the file instead.
+*If the file doesn’t open properly (showing an 'Unable to render code block' error), try using a different browser or downloading the file instead.  
+**Note that some materials are in English, while others are in Russian.
 
 ---
 ### Plan
