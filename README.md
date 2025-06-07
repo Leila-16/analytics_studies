@@ -41,7 +41,7 @@ Practice:
 
 <!-- Data Visualisation -->
 <details>
-<summary>Data Visualisation</summary>
+<summary>Data Visualisation (Tableau)</summary>
 	
 - [BI Разработчик. Tableau basics](https://stepik.org/course/56280/info)
 - [Визуализация данных и продвинутое Tableau. Karpov.Courses](https://karpov.courses/datavisualization)
