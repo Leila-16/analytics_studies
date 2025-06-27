@@ -63,3 +63,61 @@ Practice:
 - :large_blue_circle:[Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter by Wes McKinney](https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter-dp-109810403X/dp/109810403X?&linkCode=sl1&tag=quantpytho-20&linkId=2d1788b1f52212848d18095cf9972e07&language=en_US&ref_=as_li_ss_tl)
   
 </details>
+
+
+---
+
+
+### Where to Look for Job Offers
+<details>
+<summary>Russia</summary>
+
+- [HH](https://hh.ru/)
+- [CareerSpace](https://careerspace.app/)
+- [GetMatch](https://getmatch.ru/)
+- [GeekLink](https://geeklink.io/vakansii/)
+- [tg.Analyst job aggregator](https://t.me/analyst_job_aggregator)
+- [tg.Job for Analysts & Data Scientists](https://t.me/foranalysts)
+- [tg.Вакансии аналитикам и Data science](https://t.me/job_analyst_datascience)
+- [tg.Data Analytics Jobs](https://t.me/data_hr)
+- [tg.Data Analysis Jobs (+BI, Web, Product)](https://t.me/data_analysis_jobs)
+- [tg.Data Science | Удалёнка](https://t.me/easy_ds_job)
+- [tg.Data Вакансии](https://t.me/data_vacancy)
+- [tg.WNTD | Analytics](https://t.me/wntdan)
+- [tg.Connectable Jobs](https://t.me/zarubezhom_jobs)
+- [tg.Хабр Карьера](https://t.me/habr_career)
+- [tg.Работа для Аналитиков и IT Архитекторов](https://t.me/tzprofi_job)
+- [tg.Changellenge >>: стажировки и вакансии](https://t.me/offervacancy)
+- [tg.Data jobs feed](https://t.me/datajobschannel)
+- [tg.ФКН: Вакансии](https://t.me/vacancy_cs)
+- [tg.Норм удалёнка](https://t.me/normremote)
+- [tg.БУДУ](https://t.me/budujobs)
+- [tg.Jobify | релокация, волонтерства](https://t.me/jobifys)
+- [tg.Секретные вакансии в IT и Digital](https://t.me/sparklesjobs)
+- [tg.Relocate -релокация, удалёнка, вакансии](https://t.me/young_relocate)
+- [tg.СЕТИ — IT & Digital вакансии](https://t.me/it_vakansii_jobs)
+- [tg.IT Job Hub | Работа и вакансии в IT](https://t.me/proglib_jobs)
+- [tg.Вакансии для своих✨](https://t.me/cozy_hr)
+- [tg.Data jobs — вакансии по data science, анализу данных, аналитике..](https://t.me/datajob)
+- [tg.SNS: Jobs feed](https://t.me/sns_jobs_feed)
+- [tg.Analysts_Jobs](https://t.me/Analysts_Jobs)
+- [tg.Data Science 🛸 & ML Jobs за рубежом](https://t.me/opento_data)
+- [tg.Remocate Junior: стажировки и вакансии](https://t.me/yuniorapp)
+- [tg.SuperJob Старт / Работа для студентов](https://t.me/studentsuper)
+- [tg.Remote Junior (INFLOW)](https://t.me/remotejun)
+- [tg.Young & Junior - вакансии IT](https://t.me/young_june)
+- [tg.Джуниор Вакансии Стажировки IT](https://t.me/juniors_rabota_jobs)
+- [tg.Job for Junior](https://t.me/jobforjunior)
+- [tg.Авоська — junior IT вакансии/cтажировки](https://t.me/jobs_juniors_remote)
+- [tg.junojobs → junior вакансии и стажировки](https://t.me/juno_jobs)
+  
+</details>
+
+
+<details>
+<summary>Worldwide</summary>
+
+- [WantApply](https://wantapply.com/)
+- [Remocate](https://www.remocate.app/)
+  
+</details>
