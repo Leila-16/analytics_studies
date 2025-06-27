@@ -34,6 +34,7 @@ Here, I share the courses, books, case studies and personal notes I completed wh
 Practice:
 - :red_circle:[SQl-упражнения](https://sql-ex.ru/learn_exercises.php?LN=6)
 - :red_circle:[SQL-упражнения и тестовые задания](https://sql-academy.org/ru/trainer)
+- :large_blue_circle:[LeetCode](https://leetcode.com/problemset/)
 - :large_blue_circle:[Solve a mystery using SQL](https://www.sqlnoir.com/)
 - :large_blue_circle:[Detective-game. Solve using SQL](https://mystery.knightlab.com/)
  </details>
@@ -76,6 +77,7 @@ Practice:
 - [CareerSpace](https://careerspace.app/)
 - [GetMatch](https://getmatch.ru/)
 - [GeekLink](https://geeklink.io/vakansii/)
+- [Хабр Карьера](https://career.habr.com/)
 - [tg.Analyst job aggregator](https://t.me/analyst_job_aggregator)
 - [tg.Job for Analysts & Data Scientists](https://t.me/foranalysts)
 - [tg.Вакансии аналитикам и Data science](https://t.me/job_analyst_datascience)
@@ -115,9 +117,18 @@ Practice:
 
 
 <details>
-<summary>Worldwide</summary>
+<summary>Worldwide Remote</summary>
 
 - [WantApply](https://wantapply.com/)
 - [Remocate](https://www.remocate.app/)
+- [WeWorkRemotely](https://weworkremotely.com/)
+- [FlexJobs](https://www.flexjobs.com/homevariant/t1)
+- [Remote|ok](https://remoteok.com/)
+- [Remotive](https://remotive.com/)
+- [Jobspresso](https://jobspresso.co/)
+- [Working Nomads](https://www.workingnomads.com/jobs)
+- [WellFound](https://wellfound.com/)
+- [UpWork](https://www.upwork.com/)
+- [Freelancer](https://www.freelancer.com/)
   
 </details>
