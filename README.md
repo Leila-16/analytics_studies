@@ -70,6 +70,9 @@ Practice:
 
 
 ### Where to Look for Job Offers
+
+[Interview tasks](https://nodatanogrowth.com/test-tasks) 
+
 <details>
 <summary>Russia</summary>
 
