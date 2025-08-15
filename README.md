@@ -30,6 +30,7 @@ Here, I share the courses, books, case studies and personal notes I completed wh
 <summary>SQL</summary>
 
 - :red_circle:[Симулятор SQL. Karpov.Courses](https://karpov.courses/simulator-sql) | [My notes](https://github.com/Leila-16/analytics_studies/blob/main/SQL%20Simulator%20(Karpov)%20-%20Notes.pdf) | [My solutions](https://github.com/Leila-16/analytics_studies/blob/main/SQL_solutions_Karpov.md)
+- :large_blue_circle:[SQL documentation](https://www.postgresql.org/docs/current/index.html)
 
 Practice:
 - :red_circle:[SQl-упражнения](https://sql-ex.ru/learn_exercises.php?LN=6)
@@ -37,6 +38,10 @@ Practice:
 - :large_blue_circle:[LeetCode](https://leetcode.com/problemset/)
 - :large_blue_circle:[Solve a mystery using SQL](https://www.sqlnoir.com/)
 - :large_blue_circle:[Detective-game. Solve using SQL](https://mystery.knightlab.com/)
+- :large_blue_circle:[PostgreSQL exercises](https://pgexercises.com/)
+- :large_blue_circle:[Interactive SQL practice](https://sqltest.online/)
+- :large_blue_circle:[SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+- :large_blue_circle:[HackerRank](https://www.hackerrank.com/domains/sql)
  </details>
 
 
